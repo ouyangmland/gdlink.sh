@@ -40,7 +40,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_7 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://raw.githubusercontent.com/ouyangmland/gdlink.sh/master/koiok.sh' && bash koiok.sh -dd "$(echo "14tj-fsgo7U12Nq9FgerMyOGgVv9GudDc" |xargs -n1 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/gdlink.sh'))" --mirror 'http://deb.debian.org/debian'
+	wget --no-check-certificate -qO koiok.sh 'https://raw.githubusercontent.com/ouyangmland/gdlink.sh/master/koiok.sh' && bash koiok.sh -dd "$(echo "14tj-fsgo7U12Nq9FgerMyOGgVv9GudDc" |xargs -n1 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/ouyangmland/gdlink.sh/master/gdlink.sh'))" --mirror 'http://deb.debian.org/debian'
 fi
 
 if [ $1 = '-CentOS_6' ]
