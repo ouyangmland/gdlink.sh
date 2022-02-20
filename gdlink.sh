@@ -5,7 +5,7 @@ FileID="$1";
 export URL='https://docs.google.com/uc';
 export ACTION='export=download';
 export LINK='googleusercontent.com';
-export google_file_id_num='24,48';
+export google_file_id_num='08,04';
 export CODE='MoeClub';
 
 function RandomSTR(){
